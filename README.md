@@ -12,7 +12,8 @@ chmod +x ./install
 sudo ./install auto
 sudo yum install -y python-pip
 sudo pip install awscli
-sudo yum install java-openjdk17
+sudo dnf update
+sudo dnf install java-17-amazon-corretto-devel
 ```
 
 #### CodePipeline
